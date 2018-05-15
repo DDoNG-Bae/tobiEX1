@@ -1,4 +1,4 @@
-package com.dasom.ex;
+package com.dasom.ex.final1;
 
 public class User {
 

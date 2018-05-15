@@ -1,7 +1,9 @@
-package com.dasom.ex;
+package com.dasom.ex.counting;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+
+import com.dasom.ex.maker.ConnectionMaker;
 
 public class CountingConnectionMaker implements ConnectionMaker {
 	int counter = 0;
@@ -11,7 +13,6 @@ public class CountingConnectionMaker implements ConnectionMaker {
 		// TODO Auto-generated constructor stub
 		this.realConnectionMaker=realConnectionMaker;
 	}
-	@Override
 	public Connection openConnection() throws ClassNotFoundException, SQLException {
 		// TODO Auto-generated method stub
 		this.counter++;

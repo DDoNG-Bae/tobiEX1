@@ -1,4 +1,4 @@
-package com.dasom.ex;
+package com.dasom.ex.final1;
 
 import java.sql.SQLException;
 
@@ -12,12 +12,16 @@ public class UserDaoTest {
 	public static void main(String[] args) throws ClassNotFoundException,SQLException {
 		// TODO Auto-generated method stub
 		
+		//자바코드
+		//ApplicationContext context = new AnnotationConfigApplicationContext(DaoFactory.class);
+		
+		//XML
 		ApplicationContext context = new GenericXmlApplicationContext("applicationContext.xml");
 		
 		UserDao dao = context.getBean("userDao", UserDao.class);
 		
 		User user = new User();
-		user.setId("ektha4");
+		user.setId("ektha7");
 		user.setName("다솜");
 		user.setPassword("ektha");
 		

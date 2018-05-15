@@ -1,8 +1,11 @@
-package com.dasom.ex;
+package com.dasom.ex.counting;
 
 import java.sql.SQLException;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.dasom.ex.final1.User;
+import com.dasom.ex.final1.UserDao;
 
 public class UserDaoConnectionCountingTest {
 

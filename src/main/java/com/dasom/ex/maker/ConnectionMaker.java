@@ -1,4 +1,4 @@
-package com.dasom.ex;
+package com.dasom.ex.maker;
 
 import java.sql.Connection;
 import java.sql.SQLException;
