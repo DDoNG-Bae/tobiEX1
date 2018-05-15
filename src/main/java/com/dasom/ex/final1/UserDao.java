@@ -12,14 +12,9 @@ import com.dasom.ex.maker.ConnectionMaker;
 
 public class UserDao {
 	
-	private ConnectionMaker connectionMaker;
 	private DataSource dataSource;
 	public UserDao() {};
-	
-	public UserDao(ConnectionMaker connectionMaker) {
-		this.connectionMaker = connectionMaker;
-	}
-	
+		
 	public void setDataSource(DataSource dataSource) {
 		this.dataSource = dataSource;
 	}
