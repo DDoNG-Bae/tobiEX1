@@ -3,7 +3,6 @@ package com.dasom.ex.counting;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.dasom.ex.final1.UserDao;
 import com.dasom.ex.maker.ConnectionMaker;
 import com.dasom.ex.maker.SimpleConnectionMaker;
 

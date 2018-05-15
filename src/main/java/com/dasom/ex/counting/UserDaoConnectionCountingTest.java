@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.dasom.ex.final1.User;
-import com.dasom.ex.final1.UserDao;
 
 public class UserDaoConnectionCountingTest {
 
@@ -17,7 +16,7 @@ public class UserDaoConnectionCountingTest {
 		
 		//DAO 사용코드
 		User user = new User();
-		user.setId("ektha3");
+		user.setId("ektha99");
 		user.setName("다솜");
 		user.setPassword("ektha");
 		
